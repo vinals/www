@@ -9825,8 +9825,8 @@ Error message and password prompt
 <div created="20201025164952581" modified="20201025164952581" title="$:/state/importpreviewtype">
 <pre>$:/core/ui/ImportPreviews/Diff</pre>
 </div>
-<div created="20200525231939387" modified="20201101203956612" title="$:/state/sidebar">
-<pre>no</pre>
+<div created="20200525231939387" modified="20201106232231621" title="$:/state/sidebar">
+<pre>yes</pre>
 </div>
 <div created="20201023141935650" modified="20201025211907623" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
@@ -9843,7 +9843,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20201101203947478" list="Alumni Home" modified="20201101203947478" title="$:/StoryList">
+<div created="20201106232233720" list="Alumni" modified="20201106233320060" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200524184928527" modified="20200524185136501" tags="$:/tags/Macro" title="$:/tags/Macro">
@@ -9898,11 +9898,11 @@ __$text$
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1920&quot;
+            &quot;text&quot;: &quot;3440&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;1080&quot;
+            &quot;text&quot;: &quot;1440&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -10524,8 +10524,13 @@ Jorge at George's Mill in Sneinton
 
 </pre>
 </div>
-<div created="20201025161243303" modified="20201025192257607" title="Research">
+<div created="20201025161243303" modified="20201106232756439" title="Research">
 <pre>Our research is of theoretical and computational nature, and focuses on mesoscale theories of nonequilibrium phenomena in extended systems, with applications to Statistical Mechanics, Soft Matter Physics, and Materials Science. Generically, systems outside of thermodynamic equilibrium involve unstable interfaces and moving topological defects. We develop theories at the mesoscale of the relevant phases, analyze their macroscopic scale asymptotics, and obtain their non equilibrium properties through large scale computation. Our research is currently motivated by topologically driven flows in liquid crystals, unstable interfaces in complex fluids, and a mesoscale description of plasticity in defected materials.
+
+!!! Self consistent field theory of nematic liquid crystals
+[img width=&quot;150px&quot; class=&quot;tc-image&quot;[http://homepages.spa.umn.edu/~vinals/tspot_files/MaierSaupe_p1h.png]][img width=&quot;150px&quot; class=&quot;tc-image&quot;[http://homepages.spa.umn.edu/~vinals/tspot_files/MaierSaupe_m1h.png]] The nematic phase of a liquid crystal is an equilibrium phase characterized by long ranged molecular orientational order. Liquid crystal molecules typically have uniaxial symmetry (head-tail symmetry) and therefore allow defects of half integer degree. Shown are a defect of +1/2 (left) and -1/2 (right) degree as indicated by the while lines. The degree of order and the structure of the defect core have been typically beyond experimental resolution, and therefore often modeled as effective or point singularities of the (continuous) order parameter field. Recent experiments in lyotropic chromonic liquid crystals have revealed defect core sizes on a scale of a few microns, and have determined their spatial structure in some detail.
+
+Neither of the two current theories in use for the description of nematic phases can address the core structure observed. In one, the ~Oseen-Frank theory, defects are point singularities of the so called director field, and removed with appropriate cut-off approaches. In the second, the Landau-de Gennes theory, the order parameter at the core is phenomenological, and largely isotropic (in disagreement with experiments). In [[[CS20]|http://homepages.spa.umn.edu/~vinals/mss/MSPaper.pdf]], we have developed a self consistent field theory of the nematic, which needs to be solved numerically. As in the Landau-de Gennes theory, our approach is based on a tensor order parameter description of the nematic phase. Unlike the latter, we can guarantee that the eigenvalues of the order parameter remain in the physically admissible range throughout the defect, as well as allow different energies for splay and bend distortions while retaining boundedness of the energy. This is also a central feature of the molecular interactions in this lyotropic liquid crystal.
 
 !!! Smectic film instabilities
 [img width=&quot;350px&quot; class=&quot;tc-image&quot;[http://homepages.spa.umn.edu/~vinals/tspot_files/smectic_web.png]] A smectic is a complex fluid phase of a liquid crystal that exhibits broken translational symmetry in only one direction (a one dimensional solid or a layered phase). Interfaces separating smectic and isotropic phases in equilibrium can be quite complex, such as the array of focal conics shown left. Such an equilibrium shape depends on the complex interplay between mean and Gaussian curvatures, and bending and torsion energies. These are effects largely absent in normal fluid or solid phases. We are investigating an order parameter model of the smectic-isotropic system that can describe the equilibrium thermodynamics of its complex interfacial morphologies as a function of intrinsic metric properties of the interface. The same model can then be extended to describe surface instabilities and the ensuing pattern formation. The model is especially useful in describing instabilities in which the topology of the domains change as a function of time. The figure at left shows an evolving surface pattern in three dimensions from an initial toroidal focal domain. New smectic layers are being formed at the center of the domain by  layer growth from the isotropic phase [[[EV18]|http://homepages.spa.umn.edu/~vinals/mss/ev1.pdf]].
@@ -10533,11 +10538,12 @@ Jorge at George's Mill in Sneinton
 More generally, local equilibrium thermodynamics is key to the existence of local (reversible) stresses that drive hydrodynamic flow. Our approach provides a direct method of computing not only interfacial tension but also bending and torsion stresses on a moving interface. The combined problem involving interfacial relaxation and fluid flow has been addressed for a system in which the local density couples to the local smectic order parameter in order to describe experiments about instabilities of a smectic air interface.  [[[EV19]|http://homepages.spa.umn.edu/~vinals/mss/ev2.pdf]].
 
 !!!Mesoscale theory of defected materials
-[img width=&quot;350px&quot;[http://homepages.spa.umn.edu/~vinals/tspot_files/PFC_amplitude_phase_dipole.png]]  A current major objective in Materials Science, “reversing the arrow: materials by design”, calls for the development of theoretical and computational inverse methods to design materials that have specified properties and function. Such an inverse optimization problem requires robust solutions to the forward problem involved in the determination of macroscopic properties as a function of the nano and mesoscopic properties and composition of any given material. Although great progress has been achieved in the inverse design of materials close to thermodynamic equilibrium, most materials, are rarely uniform, but rather exhibit complex and often evolving microstructure. Therefore the standard tools of Solid State Physics and equilibrium Statistical Mechanics do not generally apply. In fact, the strong response of non equilibrium phases to external stresses and perturbations means that their properties strongly depend on interactions with boundaries, preparation methods, and prior history. The aim of our work is to establish the theoretical framework within which to predict structure evolution in non-equilibrium solids, and thus to develop the foundation of reliable forward models of processing-structure-property relationships.
+[img width=&quot;350px&quot;[http://homepages.spa.umn.edu/~vinals/tspot_files/PFC_amplitude_phase_dipole.png]] We are developing a mesoscopic theory of defect motion in crystalline solids. It is based on a continuum order parameter description of the defect density that incorporates the topological content of a given element of volume, and that can be used to study defect motion [[[PE16]|http://link.aps.org/doi/10.1103/PhysRevB.93.014107]]. Phenomenological equations of motion that respect topological constraints are developed to describe the temporal evolution of an ensemble of interacting defects. We have first shown that our methodology recovers the classical results of plasticity theory pertaining to defect motion under stress [[[AS18]|http://homepages.spa.umn.edu/~vinals/mss/as1.pdf]]. The figure (left) shows amplitudes and phases of the order parameter for a dislocation dipole in a hexagonal lattice. Two of three wave amplitudes of the order parameter decay to zero in the defect core region, whereas the phase exhibits a discontinuity along a line joining the cores. These solutions are not imposed as in classical treatments; rather they appear as a direct solution of the mesoscopic theory.
 
-For a defected solid, we adopt a coarse-grained or continuum description of the defect density that encodes the topological content of a given element of volume [[[PE16]|http://link.aps.org/doi/10.1103/PhysRevB.93.014107]]. Phenomenological equations of motion that respect topological constraints are developed to describe the temporal evolution of an ensemble of interacting defects. It is possible to reformulate these equations at a more microscopic level by introducing Hamiltonians that allow for defected ground states, and that can lead to macroscopic equations of defect motion while still resolving mesoscopic defect cores and their evolution [[[AS18]|http://homepages.spa.umn.edu/~vinals/mss/as1.pdf]]. The figure shows amplitudes and phases of a dislocation dipole in a hexagonal lattice. Two of the three wave amplitudes decay to zero in the defect core region, whereas the phase exhibit a discontinuity along a line joining the core. These solutions are not imposed as in classical treatments; rather they appear as a direct solution of the mesoscopic theory.
+The theory has been used to analyze non equilibrium dislocation motion [[[AS18b]|http://homepages.spa.umn.edu/~vinals/mss/as2.pdf]], showing good agreement with macroscopic plasticity without requiring any core or singularity regularization . These results have also been extended to a coarse grained description  [[[MS20]|http://homepages.spa.umn.edu/~vinals/mss/ms1.pdf]], methodology that alleviates the need to resolve microscopic scales, and allows computations in large systems. 
 
-A full analysis of dislocation motion has been given in [[[AS18b]|http://homepages.spa.umn.edu/~vinals/mss/as2.pdf]], showing that prior results involving phase fields did not correctly account for lattice distortion during defect motion. These results have been extended to a coarse grained limit of the phase field [[[MS20]|http://homepages.spa.umn.edu/~vinals/mss/ms1.pdf]], methodology that alleviates the need to resolve microscopic scales, and allows computations in large systems.
+Finally, we have clarified shortcomings of previous mesoscale theories of plastic motion which did not properly account for the necessary independence between elastic response, mass transport, and order parameter relaxation [[[AA20]|http://homepages.spa.umn.edu/~vinals/mss/pf_plast.pdf]].
+
 
 !!!Topology driven flows in nematic suspensions
 
